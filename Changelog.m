@@ -2,6 +2,11 @@
 %
 % TODO: Allow exactly 50% of rods stimulated below each cone but with
 % random identity
+% TODO: Test connectivity with 1rod 1cone bug
+%
+% Version 3.4 - Created on 2024-09-09 by Luca Della Santina
+%
+% + Ported to MATLAB R2024a
 %
 % Version 3.3 - Created on 2024-09-02 by Luca Della Santina
 %
