@@ -1,0 +1,93 @@
+<deployment-project plugin="plugin.apptool" plugin-version="1.0">
+  <configuration build-checksum="1313093078" file="C:\Users\Luca\Dropbox\MATLAB scripts\Christophe Model\Cone-Rod Model.prj" location="C:\Users\Luca\Dropbox\MATLAB scripts\Christophe Model" name="Cone-Rod Model" target="target.mlapps" target-name="Package App">
+    <param.appname>Cone-Rod Model</param.appname>
+    <param.authnamewatermark>Luca Della Santina</param.authnamewatermark>
+    <param.email>ldellasantina@uh.edu</param.email>
+    <param.company>University of Houston</param.company>
+    <param.icon>${PROJECT_ROOT}\Cone-Rod Model_resources\icon_24.png</param.icon>
+    <param.icons>
+      <file>${PROJECT_ROOT}\Cone-Rod Model_resources\icon_48.png</file>
+      <file>${PROJECT_ROOT}\Cone-Rod Model_resources\icon_24.png</file>
+      <file>${PROJECT_ROOT}\Cone-Rod Model_resources\icon_16.png</file>
+    </param.icons>
+    <param.summary>Model of a gap-junction coupled mosaics of cone and rod photoreceptors</param.summary>
+    <param.description>Model mosaics of arbitrary size of cones and rods that are interconnected via gap-junctions. Simulate the photoresponse in directly illuminated photoreceptors and model spread of signal across gap-junctions. Copyright 2024 Luca Della Santina.</param.description>
+    <param.screenshot>C:\Users\Luca\AppData\Local\Temp\tpa73991e3_9d63_4726_bdf4_76638ad017db.jpg</param.screenshot>
+    <param.version>3.5</param.version>
+    <param.products.name>
+      <item>MATLAB</item>
+    </param.products.name>
+    <param.products.id>
+      <item>1</item>
+    </param.products.id>
+    <param.products.version>
+      <item>24.1</item>
+    </param.products.version>
+    <param.platforms />
+    <param.output>${PROJECT_ROOT}</param.output>
+    <param.guid>71ac0293-265c-49d1-aa32-b8cb80f25471</param.guid>
+    <unset>
+      <param.platforms />
+      <param.output />
+    </unset>
+    <fileset.main>
+      <file>${PROJECT_ROOT}\ConeRodModel.mlapp</file>
+    </fileset.main>
+    <fileset.depfun>
+      <file>${PROJECT_ROOT}\icons\48px-graph.png</file>
+      <file>${PROJECT_ROOT}\icons\48px-info.png</file>
+      <file>${PROJECT_ROOT}\icons\48px-List-add-range.png</file>
+      <file>${PROJECT_ROOT}\icons\48px-List-add.png</file>
+      <file>${PROJECT_ROOT}\icons\48px-List-clear.png</file>
+      <file>${PROJECT_ROOT}\icons\48px-List-refresh.png</file>
+      <file>${PROJECT_ROOT}\icons\48px-List-remove.png</file>
+      <file>${PROJECT_ROOT}\icons\48px-open.png</file>
+      <file>${PROJECT_ROOT}\icons\48px-robot.png</file>
+      <file>${PROJECT_ROOT}\icons\48px-solve.png</file>
+    </fileset.depfun>
+    <fileset.resources />
+    <fileset.package />
+    <build-deliverables>
+      <file location="C:\Users\Luca\Dropbox\MATLAB scripts" name="Christophe Model" optional="false">C:\Users\Luca\Dropbox\MATLAB scripts\Christophe Model</file>
+    </build-deliverables>
+    <workflow />
+    <matlab>
+      <root>C:\Program Files\MATLAB\R2024a</root>
+      <toolboxes>
+        <toolbox name="matlabcoder" />
+        <toolbox name="gpucoder" />
+        <toolbox name="neuralnetwork" />
+      </toolboxes>
+      <toolbox>
+        <matlabcoder>
+          <enabled>true</enabled>
+        </matlabcoder>
+      </toolbox>
+      <toolbox>
+        <gpucoder>
+          <enabled>true</enabled>
+        </gpucoder>
+      </toolbox>
+      <toolbox>
+        <neuralnetwork>
+          <enabled>true</enabled>
+        </neuralnetwork>
+      </toolbox>
+    </matlab>
+    <platform>
+      <unix>false</unix>
+      <mac>false</mac>
+      <windows>true</windows>
+      <win2k>false</win2k>
+      <winxp>false</winxp>
+      <vista>false</vista>
+      <linux>false</linux>
+      <solaris>false</solaris>
+      <osver>10.0</osver>
+      <os32>false</os32>
+      <os64>true</os64>
+      <arch>win64</arch>
+      <matlab>true</matlab>
+    </platform>
+  </configuration>
+</deployment-project>

@@ -4,6 +4,14 @@
 % random identity
 % TODO: Test connectivity with 1rod 1cone bug
 %
+% Version 3.5 - Created on 2024-09-10 by Luca Della Santina
+%
+% + Custom simulation end-time via Tmax parameter
+% + Custom simulation sampling time via Tdelta parameter
+% + Custon rod and cone noise level via NoiseRodAmp/NoiseConeAmp
+% + Fixed custom resting potential for cones and rod
+% + Fixed plotting voltage traces when resting potential is not zero
+%
 % Version 3.4 - Created on 2024-09-09 by Luca Della Santina
 %
 % + Ported to MATLAB R2024a
