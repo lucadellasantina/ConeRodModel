@@ -4,6 +4,12 @@
 % random identity
 % TODO: Test connectivity with 1rod 1cone bug
 %
+% Version 3.6 - Created on 2025-01-09 by Luca Della Santina
+%
+% + Ported to MATLAB 2024b
+% + Added new parameter LRmodelFull to switch between SPR and full LR 
+% + Added calcIrod and calcIcone methods to abstract SPR from full LR model 
+%
 % Version 3.5 - Created on 2024-09-10 by Luca Della Santina
 %
 % + Custom simulation end-time via Tmax parameter

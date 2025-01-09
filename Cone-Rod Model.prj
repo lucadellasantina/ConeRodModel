@@ -1,5 +1,5 @@
 <deployment-project plugin="plugin.apptool" plugin-version="1.0">
-  <configuration build-checksum="1313093078" file="C:\Users\Luca\Dropbox\MATLAB scripts\Christophe Model\Cone-Rod Model.prj" location="C:\Users\Luca\Dropbox\MATLAB scripts\Christophe Model" name="Cone-Rod Model" target="target.mlapps" target-name="Package App">
+  <configuration build-checksum="4091163016" file="C:\Users\Luca\Dropbox\MATLAB scripts\ConeRodModel\Cone-Rod Model.prj" location="C:\Users\Luca\Dropbox\MATLAB scripts\ConeRodModel" name="Cone-Rod Model" target="target.mlapps" target-name="Package App">
     <param.appname>Cone-Rod Model</param.appname>
     <param.authnamewatermark>Luca Della Santina</param.authnamewatermark>
     <param.email>ldellasantina@uh.edu</param.email>
@@ -11,9 +11,9 @@
       <file>${PROJECT_ROOT}\Cone-Rod Model_resources\icon_16.png</file>
     </param.icons>
     <param.summary>Model of a gap-junction coupled mosaics of cone and rod photoreceptors</param.summary>
-    <param.description>Model mosaics of arbitrary size of cones and rods that are interconnected via gap-junctions. Simulate the photoresponse in directly illuminated photoreceptors and model spread of signal across gap-junctions. Copyright 2024 Luca Della Santina.</param.description>
-    <param.screenshot>C:\Users\Luca\AppData\Local\Temp\tpa73991e3_9d63_4726_bdf4_76638ad017db.jpg</param.screenshot>
-    <param.version>3.5</param.version>
+    <param.description>Model mosaics of arbitrary size of cones and rods that are interconnected via gap-junctions. Simulate the photoresponse in directly illuminated photoreceptors and model spread of signal across gap-junctions. Copyright 2024-2025 Luca Della Santina.</param.description>
+    <param.screenshot>C:\Users\Luca\AppData\Local\Temp\tp2fdb5407_1d2d_4259_8a46_e8385b2b9b5b.jpg</param.screenshot>
+    <param.version>3.6</param.version>
     <param.products.name>
       <item>MATLAB</item>
     </param.products.name>
@@ -21,7 +21,7 @@
       <item>1</item>
     </param.products.id>
     <param.products.version>
-      <item>24.1</item>
+      <item>24.2</item>
     </param.products.version>
     <param.platforms />
     <param.output>${PROJECT_ROOT}</param.output>
@@ -48,11 +48,11 @@
     <fileset.resources />
     <fileset.package />
     <build-deliverables>
-      <file location="C:\Users\Luca\Dropbox\MATLAB scripts" name="Christophe Model" optional="false">C:\Users\Luca\Dropbox\MATLAB scripts\Christophe Model</file>
+      <file location="C:\Users\Luca\Dropbox\MATLAB scripts" name="ConeRodModel" optional="false">C:\Users\Luca\Dropbox\MATLAB scripts\ConeRodModel</file>
     </build-deliverables>
     <workflow />
     <matlab>
-      <root>C:\Program Files\MATLAB\R2024a</root>
+      <root>C:\Program Files\MATLAB\R2024b</root>
       <toolboxes>
         <toolbox name="matlabcoder" />
         <toolbox name="gpucoder" />
