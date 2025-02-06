@@ -1,8 +1,12 @@
 %% Change Log for ConeRodModel
 %
-% TODO: Allow exactly 50% of rods stimulated below each cone but with
-% random identity
-% TODO: Test connectivity with 1rod 1cone bug
+%
+% Version 3.7 - Created on 2025-__-__ by Luca Della Santina
+%
+% + Added custom flash trigger delay via Tdelay property
+% + Using ode23s to solve the full LR model
+% + Fixed graph plotting error when setting RCjc = 0
+% + Automatic y-axis scaling in all plots
 %
 % Version 3.6 - Created on 2025-01-09 by Luca Della Santina
 %
