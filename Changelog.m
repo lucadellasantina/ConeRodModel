@@ -4,6 +4,7 @@
 % Version 3.7 - Created on 2025-__-__ by Luca Della Santina
 %
 % + Added custom flash trigger delay via Tdelay property
+% + Cones can be illuminated using ConesIllNum property
 % + Using ode23s to solve the full LR model
 % + Fixed graph plotting error when setting RCjc = 0
 % + Automatic y-axis scaling in all plots
