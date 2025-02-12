@@ -8,6 +8,7 @@
 % + Using ode23s to solve the full LR model
 % + Fixed graph plotting error when setting RCjc = 0
 % + Automatic y-axis scaling in all plots
+% + Data saved as CSV instead of excel to allow large tables
 %
 % Version 3.6 - Created on 2025-01-09 by Luca Della Santina
 %
