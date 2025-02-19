@@ -9,6 +9,7 @@
 % + Fixed graph plotting error when setting RCjc = 0
 % + Automatic y-axis scaling in all plots
 % + Data saved as CSV instead of excel to allow large tables
+% + Progress bar tracks progress during solve model step
 %
 % Version 3.6 - Created on 2025-01-09 by Luca Della Santina
 %
