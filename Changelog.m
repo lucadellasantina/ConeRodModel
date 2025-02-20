@@ -1,11 +1,11 @@
 %% Change Log for ConeRodModel
 %
 %
-% Version 3.7 - Created on 2025-__-__ by Luca Della Santina
+% Version 4.0 - Created on 2025-__-__ by Luca Della Santina
 %
+% + Full light response model for rods and cones
 % + Added custom flash trigger delay via Tdelay property
 % + Cones can be illuminated using ConesIllNum property
-% + Using ode23s to solve the full LR model
 % + Fixed graph plotting error when setting RCjc = 0
 % + Automatic y-axis scaling in all plots
 % + Data saved as CSV instead of excel to allow large tables
