@@ -1,7 +1,7 @@
 %% Change Log for ConeRodModel
 %
 %
-% Version 4.0 - Created on 2025-__-__ by Luca Della Santina
+% Version 4.0 - Created on 2025-02-20 by Luca Della Santina
 %
 % + Full light response model for rods and cones
 % + Added custom flash trigger delay via Tdelay property
