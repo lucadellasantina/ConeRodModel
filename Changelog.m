@@ -10,6 +10,8 @@
 % + Automatic y-axis scaling in all plots
 % + Data saved as CSV instead of excel to allow large tables
 % + Progress bar tracks progress during solve model step
+% + Plotting in pink cones illuminated
+% + Plotting in green reference cone
 %
 % Version 3.6 - Created on 2025-01-09 by Luca Della Santina
 %
