@@ -12,6 +12,9 @@
 % + Progress bar tracks progress during solve model step
 % + Plotting in pink cones illuminated
 % + Plotting in green reference cone
+% + Plotting arrow in photocurrents indicates flash trigger time
+% + Plotting rearranged and added voltage of illuminated cones
+% + ConesIllRandom allows randomization of illuminated cones identity
 %
 % Version 3.6 - Created on 2025-01-09 by Luca Della Santina
 %
