@@ -1,8 +1,8 @@
 %% Change Log for ConeRodModel
 %
-% TODO: Check batch processing is still working properly
 % TODO: Expose cone and rod model parameters as separate tables
 % TODO: Investigate why sampling needs be >10^-4 (rods) and >10^-5(cones)
+% TODO: Loading model from saved adds a bunch of variables to the table (separate the logic)
 % 
 % Version 4.0 - Created on 2025-02-20 by Luca Della Santina
 %
