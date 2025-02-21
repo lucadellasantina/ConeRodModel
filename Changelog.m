@@ -2,8 +2,13 @@
 %
 % TODO: Expose cone and rod model parameters as separate tables
 % TODO: Investigate why sampling needs be >10^-4 (rods) and >10^-5(cones)
-% TODO: Loading model from saved adds a bunch of variables to the table (separate the logic)
+% TODO: Loading model from saved adds a bunch of variables to the table (separate the logic using app.Params.Hidden)
 % 
+% Version 4.1 - Created on 2025-02-__ by Luca Della Santina
+%
+% + Exposed parameters specific for Rods and Cones in separate UI tables
+% + Fixed rounding error of number of time steps calculation 
+%
 % Version 4.0 - Created on 2025-02-20 by Luca Della Santina
 %
 % + Full light response model for rods and cones
