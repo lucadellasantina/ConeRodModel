@@ -1,13 +1,13 @@
 %% Change Log for ConeRodModel
 %
-% TODO: Expose cone and rod model parameters as separate tables
-% TODO: Investigate why sampling needs be >10^-4 (rods) and >10^-5(cones)
-% TODO: Loading model from saved adds a bunch of variables to the table (separate the logic using app.Params.Hidden)
+% TODO: Investigate why sampling needs be <=10^-4 (rods) and <=10^-5(cones)
 % 
 % Version 4.1 - Created on 2025-02-__ by Luca Della Santina
 %
 % + Exposed parameters specific for Rods and Cones in separate UI tables
-% + Fixed rounding error of number of time steps calculation 
+% + Parameters from each table can be used for batch processing
+% + Fixed rounding error of number of time steps calculation
+% + Fixed when loading existing model, hidden parameters are shown in table
 %
 % Version 4.0 - Created on 2025-02-20 by Luca Della Santina
 %
