@@ -2,7 +2,12 @@
 %
 % TODO: Investigate why sampling needs be <=10^-4 (rods) and <=10^-5(cones)
 % 
-% Version 4.1 - Created on 2025-02-__ by Luca Della Santina
+% Version 4.2 - Created on 2025-02-23 by Luca Della Santina
+%
+% + New batch mode plots aggregate properties of reference cone across
+% + RefCell allows any cell can be selected to be the reference (rod/cone)
+%
+% Version 4.1 - Created on 2025-02-21 by Luca Della Santina
 %
 % + Exposed parameters specific for Rods and Cones in separate UI tables
 % + Parameters from each table can be used for batch processing
