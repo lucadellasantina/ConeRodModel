@@ -2,6 +2,13 @@
 %
 % TODO: Investigate why sampling needs be <=10^-4 (rods) and <=10^-5(cones)
 % 
+% Version 4.3 - Created on 2025-02-24 by Luca Della Santina
+%
+% + New button to preview the current connectivity graph in full page
+% + Upon startup preview the default connectivity graphs
+% + Ensure each node of the graph is shown with the corresponding cell num
+% + Updated info page
+%
 % Version 4.2 - Created on 2025-02-23 by Luca Della Santina
 %
 % + New batch mode plots aggregate properties of reference cone across
