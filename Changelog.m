@@ -1,7 +1,17 @@
 %% Change Log for ConeRodModel
 %
 % TODO: Investigate why sampling needs be <=10^-4 (rods) and <=10^-5(cones)
+% TODO: Set a maximum to allowable calcium concentration or Ca-dependent
+% conductances like in kiourenni model
+% TODO: Fix why rods connected via a cone to other rods don't receive
+% current through gap junctions (probably in S_total calculation)
 % 
+% Version 4.4 - Created on 2025-03-__ by Luca Della Santina
+%
+% + New checkbox option to specify custom steps in a batch series
+% + Independent calculation of dVdt for inner segment from gap junctions
+% + Default values of gap-junction conductances based on empiric data
+%
 % Version 4.3 - Created on 2025-02-24 by Luca Della Santina
 %
 % + New button to preview the current connectivity graph in full page

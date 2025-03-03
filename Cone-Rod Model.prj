@@ -1,5 +1,5 @@
 <deployment-project plugin="plugin.apptool" plugin-version="1.0">
-  <configuration build-checksum="1793748631" file="C:\Users\Luca\Dropbox\MATLAB scripts\ConeRodModel\Cone-Rod Model.prj" location="C:\Users\Luca\Dropbox\MATLAB scripts\ConeRodModel" name="Cone-Rod Model" target="target.mlapps" target-name="Package App">
+  <configuration build-checksum="3510876916" file="C:\Users\Luca\Dropbox\MATLAB scripts\ConeRodModel\Cone-Rod Model.prj" location="C:\Users\Luca\Dropbox\MATLAB scripts\ConeRodModel" name="Cone-Rod Model" target="target.mlapps" target-name="Package App">
     <param.appname>Cone-Rod Model</param.appname>
     <param.authnamewatermark>Luca Della Santina</param.authnamewatermark>
     <param.email>ldellasantina@uh.edu</param.email>
@@ -13,7 +13,7 @@
     <param.summary>Model of a gap-junction coupled mosaics of cone and rod photoreceptors</param.summary>
     <param.description>Model mosaics of arbitrary size of cones and rods that are interconnected via gap-junctions. Simulate the photoresponse in directly illuminated photoreceptors and model spread of signal across gap-junctions. Copyright 2024-2025 Luca Della Santina.</param.description>
     <param.screenshot />
-    <param.version>4.3</param.version>
+    <param.version>4.4</param.version>
     <param.products.name>
       <item>MATLAB</item>
     </param.products.name>
