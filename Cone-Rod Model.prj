@@ -1,19 +1,19 @@
 <deployment-project plugin="plugin.apptool" plugin-version="1.0">
-  <configuration build-checksum="3510876916" file="C:\Users\Luca\Dropbox\MATLAB scripts\ConeRodModel\Cone-Rod Model.prj" location="C:\Users\Luca\Dropbox\MATLAB scripts\ConeRodModel" name="Cone-Rod Model" target="target.mlapps" target-name="Package App">
+  <configuration build-checksum="3256554275" file="/home/luca/Dropbox/MATLAB scripts/ConeRodModel/Cone-Rod Model.prj" location="/home/luca/Dropbox/MATLAB scripts/ConeRodModel" name="Cone-Rod Model" target="target.mlapps" target-name="Package App">
     <param.appname>Cone-Rod Model</param.appname>
     <param.authnamewatermark>Luca Della Santina</param.authnamewatermark>
     <param.email>ldellasantina@uh.edu</param.email>
     <param.company>University of Houston</param.company>
-    <param.icon>${PROJECT_ROOT}\Cone-Rod Model_resources\icon_24.png</param.icon>
+    <param.icon>${PROJECT_ROOT}/Cone-Rod Model_resources/icon_24.png</param.icon>
     <param.icons>
-      <file>${PROJECT_ROOT}\Cone-Rod Model_resources\icon_48.png</file>
-      <file>${PROJECT_ROOT}\Cone-Rod Model_resources\icon_24.png</file>
-      <file>${PROJECT_ROOT}\Cone-Rod Model_resources\icon_16.png</file>
+      <file>${PROJECT_ROOT}/Cone-Rod Model_resources/icon_48.png</file>
+      <file>${PROJECT_ROOT}/Cone-Rod Model_resources/icon_24.png</file>
+      <file>${PROJECT_ROOT}/Cone-Rod Model_resources/icon_16.png</file>
     </param.icons>
     <param.summary>Model of a gap-junction coupled mosaics of cone and rod photoreceptors</param.summary>
     <param.description>Model mosaics of arbitrary size of cones and rods that are interconnected via gap-junctions. Simulate the photoresponse in directly illuminated photoreceptors and model spread of signal across gap-junctions. Copyright 2024-2025 Luca Della Santina.</param.description>
     <param.screenshot />
-    <param.version>4.4</param.version>
+    <param.version>4.5</param.version>
     <param.products.name>
       <item>MATLAB</item>
     </param.products.name>
@@ -32,30 +32,30 @@
       <param.output />
     </unset>
     <fileset.main>
-      <file>${PROJECT_ROOT}\ConeRodModel.mlapp</file>
+      <file>${PROJECT_ROOT}/ConeRodModel.mlapp</file>
     </fileset.main>
     <fileset.depfun>
-      <file>${PROJECT_ROOT}\icons\48px-checklist.png</file>
-      <file>${PROJECT_ROOT}\icons\48px-graph.png</file>
-      <file>${PROJECT_ROOT}\icons\48px-info.png</file>
-      <file>${PROJECT_ROOT}\icons\48px-List-add-range.png</file>
-      <file>${PROJECT_ROOT}\icons\48px-List-add.png</file>
-      <file>${PROJECT_ROOT}\icons\48px-List-clear.png</file>
-      <file>${PROJECT_ROOT}\icons\48px-List-refresh.png</file>
-      <file>${PROJECT_ROOT}\icons\48px-List-remove.png</file>
-      <file>${PROJECT_ROOT}\icons\48px-open.png</file>
-      <file>${PROJECT_ROOT}\icons\48px-robot.png</file>
-      <file>${PROJECT_ROOT}\icons\48px-robot_sum.png</file>
-      <file>${PROJECT_ROOT}\icons\48px-solve.png</file>
+      <file>${PROJECT_ROOT}/icons/48px-List-add-range.png</file>
+      <file>${PROJECT_ROOT}/icons/48px-List-add.png</file>
+      <file>${PROJECT_ROOT}/icons/48px-List-clear.png</file>
+      <file>${PROJECT_ROOT}/icons/48px-List-refresh.png</file>
+      <file>${PROJECT_ROOT}/icons/48px-List-remove.png</file>
+      <file>${PROJECT_ROOT}/icons/48px-checklist.png</file>
+      <file>${PROJECT_ROOT}/icons/48px-graph.png</file>
+      <file>${PROJECT_ROOT}/icons/48px-info.png</file>
+      <file>${PROJECT_ROOT}/icons/48px-open.png</file>
+      <file>${PROJECT_ROOT}/icons/48px-robot.png</file>
+      <file>${PROJECT_ROOT}/icons/48px-robot_sum.png</file>
+      <file>${PROJECT_ROOT}/icons/48px-solve.png</file>
     </fileset.depfun>
     <fileset.resources />
     <fileset.package />
     <build-deliverables>
-      <file location="C:\Users\Luca\Dropbox\MATLAB scripts" name="ConeRodModel" optional="false">C:\Users\Luca\Dropbox\MATLAB scripts\ConeRodModel</file>
+      <file location="/home/luca/Dropbox/MATLAB scripts" name="ConeRodModel" optional="false">/home/luca/Dropbox/MATLAB scripts/ConeRodModel</file>
     </build-deliverables>
     <workflow />
     <matlab>
-      <root>C:\Program Files\MATLAB\R2024b</root>
+      <root>/home/luca/MATLAB/R2024b</root>
       <toolboxes>
         <toolbox name="matlabcoder" />
         <toolbox name="gpucoder" />
@@ -78,18 +78,18 @@
       </toolbox>
     </matlab>
     <platform>
-      <unix>false</unix>
+      <unix>true</unix>
       <mac>false</mac>
-      <windows>true</windows>
+      <windows>false</windows>
       <win2k>false</win2k>
       <winxp>false</winxp>
       <vista>false</vista>
-      <linux>false</linux>
+      <linux>true</linux>
       <solaris>false</solaris>
-      <osver>10.0</osver>
+      <osver>6.9.3-76060903-generic</osver>
       <os32>false</os32>
       <os64>true</os64>
-      <arch>win64</arch>
+      <arch>glnxa64</arch>
       <matlab>true</matlab>
     </platform>
   </configuration>

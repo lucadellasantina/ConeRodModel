@@ -6,7 +6,13 @@
 % TODO: Fix why rods connected via a cone to other rods don't receive
 % current through gap junctions (probably in S_total calculation)
 % 
-% Version 4.4 - Created on 2025-03-__ by Luca Della Santina
+% Version 4.5 - Created on 2025-03-04 by Luca Della Santina
+%
+% + dVgap_dt calculation spreads Igap across C->C, R->R, R->C
+% + Spreading of Igap to non-illuminated rods via R->C->R and C->C->R
+% + Consolidated connectivity graph plot into a single method plotGraph()
+%
+% Version 4.4 - Created on 2025-03-01 by Luca Della Santina
 %
 % + New checkbox option to specify custom steps in a batch series
 % + Independent calculation of dVdt for inner segment from gap junctions
