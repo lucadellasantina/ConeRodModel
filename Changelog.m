@@ -1,15 +1,17 @@
 %% Change Log for ConeRodModel
 %
-% TODO: Investigate why sampling needs be <=10^-4 (rods) and <=10^-5(cones)
-% TODO: Set a maximum to allowable calcium concentration or Ca-dependent
-% conductances like in kiourenni model
-% TODO: Fix why rods connected via a cone to other rods don't receive
-% current through gap junctions (probably in S_total calculation)
-% 
+% Version 4.6 - Created on 2025-04-09 by Luca Della Santina
+%
+% + myode() changed currents update code to allow dt values > 1e-5
+% + myode() fixed bug in dVgap_dt calculation, was integrated by dt
+% + updated initial calcium concentration values in cones and rods
+% + default sampling dt = 1 ms
+% + Gap junction conductances in pS
+%
 % Version 4.5 - Created on 2025-03-04 by Luca Della Santina
 %
-% + dVgap_dt calculation spreads Igap across C->C, R->R, R->C
-% + Spreading of Igap to non-illuminated rods via R->C->R and C->C->R
+% + Distribution of Igap to non-illuminated cells via C->C, R->R, R->C
+% + Ditribution of Igap to non-illuminated rods via R->C->R and C->C->R
 % + Consolidated connectivity graph plot into a single method plotGraph()
 %
 % Version 4.4 - Created on 2025-03-01 by Luca Della Santina
